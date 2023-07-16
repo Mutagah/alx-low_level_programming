@@ -14,7 +14,7 @@ int firstN, secondN, thirdN, fourthN;
 			{
 				for (fourthN = 48; fourthN <= 57; fourthN++)
 				{
-					if (firstN < thirdN || ((firstN == thirdN && secondN < fourthN))
+					if (firstN < thirdN || (firstN == thirdN && secondN < fourthN))
 							{
 							putchar(firstN);
 							putchar(secondN);
