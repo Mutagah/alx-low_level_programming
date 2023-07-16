@@ -31,6 +31,6 @@ int firstN, secondN, thirdN, fourthN;
 					}
 					}
 					}
-					putchar('\n')
+					putchar('\n');
 					return (0);
 					}
