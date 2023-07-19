@@ -9,5 +9,5 @@ int print_last_digit(int number)
 {
 int lastdigit = number % 10;
 		_putchar(abs(lastdigit) + '0');
-		return (lastdigit);
+		return (abs(lastdigit));
 }
