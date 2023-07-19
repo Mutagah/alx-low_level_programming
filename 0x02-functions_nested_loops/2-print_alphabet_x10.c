@@ -14,7 +14,7 @@ int times = 1;
 			_putchar(alphabet);
 			alphabet++;
 		}
-	putchar('\n');
+	_putchar('\n');
 	times++;
 	}
 }
